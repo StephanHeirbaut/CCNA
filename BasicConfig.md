@@ -23,7 +23,7 @@ Most common commands to configure a router or switch using the Cisco CLI.
 | Configure autonegotiation duplex           | `duplex auto`     |
 | Configure autonegotiation of used speed            | `speed auto`     |
 | Enable MDIX            | `mdix auto`     |
-| Set switchport mode            | `switchport mode {access|trunk}`     |
+| Set switchport mode            | `switchport mode {access or trunk}`     |
 | Save configuration            | `copy running-config startup-config`     |
 
 ## Router
@@ -44,7 +44,7 @@ Most common commands to configure a router or switch using the Cisco CLI.
 | Enable password prompt            | `login`     |
 | Save configuration            | `copy running-config startup-config`     |
 | Static route            | `ip route 192.168.1.0 255.255.255.0 g0/0 or 192.168.1.254`     |
-| Default static route            | `ip route 0.0.0.0 0.0.0.0 {ip-address | exit-interface}`     |
+| Default static route            | `ip route 0.0.0.0 0.0.0.0 {ip-address or exit-interface}`     |
 
 
 ## Interface
@@ -68,8 +68,8 @@ Most common commands to configure a router or switch using the Cisco CLI.
 | Secure VTY (config-vty required)            | `exec-timeout 10`     |
 | Enable switchport security            | `switchport port-security`     |
 | Set maximum number of secure addresses allowed            | `switchport port-security maximum X`     |
-| Enable static or dynamically learning secure MAC addresses            | `switchport port-security mac-address {X.X.X.X.X.X|sticky}`     |
-| Configure required action when violation detected            | `switchport port-security violation {protect|restrict|shutdown}`     |
+| Enable static or dynamically learning secure MAC addresses            | `switchport port-security mac-address {X.X.X.X.X.X or sticky}`     |
+| Configure required action when violation detected            | `switchport port-security violation {protect or restrict or shutdown}`     |
 
 ## SSH
 
@@ -93,7 +93,7 @@ Most common commands to configure a router or switch using the Cisco CLI.
 | Shows configuration of IPv4 routes            | `show ip route`     |
 | Shows configuration of the IPv6 interface            | `show ipv6 interface brief`     |
 | Shows configuration of IPv4 routes            | `show ip route`     |
-| Show neighbors found through CDP            | `show cdp|lldp neighbors detail`     |
+| Show neighbors found through CDP            | `show cdp or lldp neighbors detail`     |
 | Shows ARP table            | `show arp`     |
 | Shows MAC information            | `show mac-address-table`     |
 | Shows active protocols (best practise to add option between show and protocol for better results)          | `show protocols`     |
