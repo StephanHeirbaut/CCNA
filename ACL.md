@@ -84,7 +84,7 @@ Most common commands to configure ACLs using the Cisco CLI.
 | Blabla            | `deny host 192.168.11.0`     |
 | Blabla            | `permit any`     |
 | Blabla            | `interface g0/0`     |
-| Blabla            | `ip access-group NO_ACCESS in|out`     |
+| Blabla            | `ip access-group NO_ACCESS in or out`     |
 
 ## Configuration extended ACL
 
@@ -92,8 +92,8 @@ Most common commands to configure ACLs using the Cisco CLI.
 |:-----------------|:-------------|
 | Blabla            | `interface g0/0`     |
 | Blabla            | `ip addr X.X.X.X X.X.X.X`     |
-| Blabla            | `ip access-group in|out`     |
-| Blabla            | `access-list 101 permit|deny protocol any 10.1.1.0 0.0.0.255`     |
+| Blabla            | `ip access-group in or out`     |
+| Blabla            | `access-list 101 permit or deny protocol any 10.1.1.0 0.0.0.255`     |
 
 ## Troubleshooting
 
